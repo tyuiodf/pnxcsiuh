@@ -1,0 +1,18 @@
+{
+  "name": "gost-heroku",
+  "description": "deploy gost to Heroku.",
+  "keywords": ["gost"],
+  "env": {
+    "VER": {
+       "description": " gost version",
+       "value": "2.11.0"
+     }, 
+    "MODE": {
+       "description": "ws or mws",
+       "value": "mws"
+     }
+  },
+  "website": "https://github.com/cidy0106/gost-heroku",
+  "repository": "https://github.com/cidy0106/gost-heroku",
+  "stack": "container"
+ }
